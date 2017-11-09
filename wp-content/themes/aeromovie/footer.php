@@ -1,7 +1,7 @@
 <div class="want">
 	<div class="container">
 		<div class="our-wrap__title margin">
-			<h1 class="common-title_digital white">Хотите работать с нами? <span>05</span></h1>
+			<span class="common-title_digital white header2">Хотите работать с нами? <span>05</span></span>
 		</div>
 		<p>Заполните форму заказа или закажите обратный звонок. Мы свяжемся с вами в течение 5 минут.</p>
 		<img src="<?php echo get_template_directory_uri(); ?>/img/dron.png" alt="img" class="img-responsive">

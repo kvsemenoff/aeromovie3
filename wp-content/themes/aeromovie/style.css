@@ -676,6 +676,16 @@ h4 {
     .header_bottom {
       padding-top: 190px;
       padding-bottom: 246px; } }
+  .header_bottom .header2 {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 41px;
+    color: white;
+    padding-bottom: 20px; }
+    @media only screen and (min-width: 768px) {
+      .header_bottom .header2 {
+        font-size: 40px; } }
   .header_bottom h1 {
     font-size: 25px;
     font-weight: 700;
@@ -3310,5 +3320,9 @@ h5 {
     font-size: 14px;
     color: #a4a4a4;
     font-weight: 300; }
+
+.post-page img {
+  width: 100%;
+  height: auto; }
 
 /*# sourceMappingURL=style.css.map */

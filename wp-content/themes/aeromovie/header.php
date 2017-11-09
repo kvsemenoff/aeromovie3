@@ -96,7 +96,7 @@
 			<?php } ?>
 					<div class="header-bottom__box2">
 						<div class="container">
-							<h1><?php the_title(); ?></h1>
+							<span class="header2"><?php the_title(); ?></span>
 							<?php $post_id = get_the_ID(); ?>
 							<?php if( has_excerpt( $post_id ) ){ ?>
 								<span><?php the_excerpt(); ?></span>

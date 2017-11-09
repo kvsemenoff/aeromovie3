@@ -831,6 +831,17 @@ h4{
 		padding-bottom: 246px;
 	}
 	
+	.header2{
+		display: inline-block;
+		font-size: 25px;
+		font-weight: 700;
+		line-height: 41px;
+		color: white;
+		padding-bottom: 20px;
+		@media only screen and (min-width: 768px) {
+			font-size: 40px;
+		}
+	}
 
 	h1{
 		font-size: 25px;
@@ -4037,4 +4048,9 @@ h5{
 		color: #a4a4a4;
 		font-weight: 300;
 	}
+}
+
+.post-page img{
+	width: 100%;
+	height: auto;
 }
